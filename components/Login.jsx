@@ -44,7 +44,7 @@ export default function Login() {
                         {errorMsg ? <p style={{ color: "red" }}>{errorMsg}</p> : null}
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label"><MdEmail /> Email address</label>
+                        <label for="email" class="form-label"><MdEmail /> Email addressss</label>
                         <input type="email" class="form-control" id="email" required/>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
