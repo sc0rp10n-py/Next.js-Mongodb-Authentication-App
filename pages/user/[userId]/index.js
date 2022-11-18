@@ -47,7 +47,7 @@ export default function UserPage({ user }) {
                             </div>
                         </div>
                         <div className='card-action text-center mb-3'>
-                            <Link href='/setting'><a className='btn btn-primary'>Edit</a></Link>
+                            <Link href='/setting'>Edit</Link>
                         </div>
                     </div>
                 </div>

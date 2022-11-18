@@ -53,10 +53,10 @@ export default function Home() {
                                         <>
                                             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                                 <Link href="/login">
-                                                    <a className="btn btn-primary">Log in</a>
+                                                    Log in
                                                 </Link>
                                                 <Link href="/signup">
-                                                    <a className="btn btn-primary">Sign up</a>
+                                                    Sign up
                                                 </Link>
                                             </div>
                                         </>
@@ -66,7 +66,7 @@ export default function Home() {
                                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                                 <Link href="/user/[userId]" as={`/user/${user._id}`}>
-                                                    <a className="btn btn-primary">Profile</a>
+                                                    Profile
                                                 </Link>
                                             </div>
                                         </>

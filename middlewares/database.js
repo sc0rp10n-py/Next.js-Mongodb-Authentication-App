@@ -9,7 +9,7 @@ export async function setUpDb(db) {
 }
 
 export default async function database(req, res, next) {
-  if (!client.isConnected()) await client.connect();
+  // if (!client.isConnected()) await client.connect();
   req.dbClient = client;
   req.db = client.db("Authenticate");
   await setUpDb(req.db);
